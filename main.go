@@ -9,7 +9,7 @@ func main() {
 	i := `just 
 			a 
 				mod`
-	fmt.Println(i)
+	fmt.Println(strings.TrimSpace(i))
 
 	j, k := "dez", 10
 	fmt.Println(j, k)
