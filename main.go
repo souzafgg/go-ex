@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
 	i := `just 
@@ -10,4 +13,6 @@ func main() {
 
 	j, k := "dez", 10
 	fmt.Println(j, k)
+
+	fmt.Println(j + strings.Repeat("!", k))
 }
