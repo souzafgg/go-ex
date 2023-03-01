@@ -1,19 +1,13 @@
 package main
 
-import (
-	"fmt"
-	"strings"
-)
+import "fmt"
 
 func main() {
-
 	i := `just 
 			a 
 				mod`
 	fmt.Println(i)
 
 	j, k := "dez", 10
-
-	fmt.Println(j + strings.Repeat("!", k))
-
+	fmt.Println(j, k)
 }
