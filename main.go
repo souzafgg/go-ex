@@ -40,3 +40,7 @@ func rSoma(x []int) int {
 	}
 	return t
 }
+
+func print(s string) {
+	fmt.Println(s)
+}
