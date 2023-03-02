@@ -21,6 +21,8 @@ func main() {
 
 	x := rVar([]int{2, 4, 6, 7, 10}...)
 	fmt.Println(x)
+
+	x = rSoma([]int{1, 3, 5, 7, 9})
 }
 
 func rVar(y ...int) int {
@@ -29,4 +31,12 @@ func rVar(y ...int) int {
 		n += v
 	}
 	return n
+}
+
+func rSoma(x []int) int {
+	t := 0
+	for _, v := range x {
+		t += v
+	}
+	return t
 }
