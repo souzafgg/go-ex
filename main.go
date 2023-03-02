@@ -18,4 +18,15 @@ func main() {
 
 	name := "çatz"
 	fmt.Println(utf8.RuneCountInString(name))
+
+	x := rVar([]int{2, 4, 6, 7, 10}...)
+	fmt.Println(x)
+}
+
+func rVar(y ...int) int {
+	n := 0
+	for _, v := range y {
+		n += v
+	}
+	return n
 }
