@@ -21,7 +21,8 @@ func main() {
 	i := `just
 			simple
 				a 
-					mod`
+					mod
+						!!!`
 	fmt.Println(strings.TrimSpace(i))
 
 	j, k := "dez", 10
