@@ -18,9 +18,10 @@ type use struct {
 }
 
 func main() {
-	i := `just 
-			a 
-				mod`
+	i := `just
+			simple
+				a 
+					mod`
 	fmt.Println(strings.TrimSpace(i))
 
 	j, k := "dez", 10
