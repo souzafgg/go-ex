@@ -11,6 +11,11 @@ type tools struct {
 	Objetivo string
 }
 
+type use struct {
+	Name string
+	Nota int
+}
+
 func main() {
 	i := `just 
 			a 
