@@ -6,6 +6,17 @@ import (
 	"unicode/utf8"
 )
 
+type tools struct {
+	Name     string
+	Objetivo string
+}
+
+type use struct {
+	Name      string
+	Nota      int
+	Essencial bool
+}
+
 func main() {
 	i := `just 
 			a 
