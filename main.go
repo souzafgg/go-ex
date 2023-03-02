@@ -12,8 +12,9 @@ type tools struct {
 }
 
 type use struct {
-	Name string
-	Nota int
+	Name      string
+	Nota      int
+	Essencial bool
 }
 
 func main() {
